@@ -6,7 +6,7 @@ KERNEL_SOURCE_BRANCH=master
 # CPU类型
 export ARCH=arm64
 # 配置文件
-KERNEL_CONFIG=vendor/apollo_user_defconfig
+KERNEL_CONFIG=vendor/x1q_chn_openx_defconfig
 KERNEL_NAME=${KERNEL_SOURCE##*/}
 
 # 由GoogleSource提供的Clang编译器（到这里查找：https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+refs）
