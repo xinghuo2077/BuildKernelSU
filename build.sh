@@ -1,8 +1,8 @@
 BULID_KERNEL_DIR=`pwd`
 # 内核开源仓库地址
-KERNEL_SOURCE=https://github.com/dsunnerer/kernel_apollo
+KERNEL_SOURCE=https://github.com/xinghuo2077/Samsung_kernel_x1q_SM-G9810
 # 仓库分支
-KERNEL_SOURCE_BRANCH=ten
+KERNEL_SOURCE_BRANCH=master
 # CPU类型
 export ARCH=arm64
 # 配置文件
