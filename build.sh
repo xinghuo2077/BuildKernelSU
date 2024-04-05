@@ -26,7 +26,7 @@ CROSS_COMPILE=aarch64-linux-androidkernel-
 
 # 原始boot.img文件下载地址（可以从卡刷包或线刷包里提取，重命名为boot-source.img放到本脚本所在目录下）
 SOURCE_BOOT_IMAGE_NEED_DOWNLOAD=false
-SOURCE_BOOT_IMAGE=ftp://192.168.1.1/boot.img
+SOURCE_BOOT_IMAGE=https://github.com/xinghuo2077/sssboot/raw/main/boot.img
 
 # kprobe集成方案需要修改的参数（每个内核仓库需要开启的选项不统一，有的机型可能全都不用开，请自行逐个测试，第一个和第二个一般需要开）：
 ADD_OVERLAYFS_CONFIG=true
